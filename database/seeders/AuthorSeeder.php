@@ -13,10 +13,11 @@ class AuthorSeeder extends Seeder
      */
     public function run(): void
     {
-        Author::create(['name' => 'Anne', 'birthdate' => '1980-01-01']);
-        Author::create(['name' => 'Betty', 'birthdate' => '1985-02-02']);
-        Author::create(['name' => 'Charlie', 'birthdate' => '1990-03-03']);
-        Author::create(['name' => 'Dilan', 'birthdate' => '1975-04-04']);
-        Author::create(['name' => 'Ethan', 'birthdate' => '1982-05-05']);
+        Author::create(['name' => 'Author 1', 'birthdate' => '1980-01-01']);
+        Author::create(['name' => 'Author 2', 'birthdate' => '1985-02-02']);
+        Author::create(['name' => 'Author 3', 'birthdate' => '1990-03-03']);
+        Author::create(['name' => 'Author 4', 'birthdate' => '1975-04-04']);
+        Author::create(['name' => 'Author 5', 'birthdate' => '1982-05-05']);
     }
+    
 }
